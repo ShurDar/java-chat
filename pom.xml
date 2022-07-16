@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.gb.shurupovs</groupId>
+    <groupId>ru.gb.shurupova</groupId>
     <artifactId>java-chat</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>java-chat</name>
@@ -60,7 +60,8 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>ru.gb.shurupovs.javachat/ru.gb.shurupovs.javachat.HelloApplication</mainClass>
+                            <mainClass>ru.gb.shurupova.javachat/ru.gb.shurupova.javachat.client.ChatClientApp
+                            </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

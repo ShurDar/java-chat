@@ -1,8 +1,8 @@
-module ru.gb.shurupovs.javachat {
+module ru.gb.shurupova.javachat {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens ru.gb.shurupovs.javachat to javafx.fxml;
-    exports ru.gb.shurupovs.javachat;
+    exports ru.gb.shurupova.javachat.client;
+    opens ru.gb.shurupova.javachat.client to javafx.fxml;
 }
